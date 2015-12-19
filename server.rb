@@ -18,4 +18,8 @@ get '/nipash' do
 	erb :nipash
 end
 
+get '/denis' do
+	erb :denis
+end
+
 #test slack
