@@ -1,4 +1,5 @@
-<html>
+<!DOCTYPE html>
+<html lang="en-US">
 <head>
     <title>Test Page</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
@@ -7,12 +8,29 @@
     <link rel="stylesheet" type="text/css" href="/style.css">
 </head>
 <body>
-<p>Navigation:</p>
-<a href="http://localhost:4567/">Main Page</a>
-<a href="http://localhost:4567/nipash">Nipash's Page</a>
-<a href="http://localhost:4567/reza">Reza's Page</a>
-<a href="http://localhost:4567/denis">Denis' Page</a>
- 
+    <div class="main-menu">
+        <div class="image">
+        <img src="http://www.bellevuecollege.edu/tempsite/webpublishing/logo/download/horz.png" width="100" height="100" alt="Bellevue College logo"></div> 
+            <div class="CSC">
+            <h1>Computer Science Club (CSC) </h1>
+        
+</div>  
+        <nav class="nav-bar">
+  
+            <ul>
+            <li><a href="http://localhost:4567/">Main Page</a></li>
+            <li><a href="http://localhost:4567/meeting">Meeting Info</a></li>
+            <li><a href="http://localhost:4567/projects">Projects</a></li>
+            <li><a href="http://localhost:4567/join">Join</a></li>
+            <li><a href="http://localhost:4567/resources">Resources</a></li>
+            <li><a href="http://localhost:4567/members">Members</a></li>  
+            <li><a href="http://localhost:4567/about">About us</a></li>  
+            <li><a href="http://localhost:4567/nipash">Nipash's Page</a></li>
+            <li><a href="http://localhost:4567/reza">Reza's Page</a></li>
+            <li><a href="http://localhost:4567/denis">Denis' Page</a></li>
+        </ul>
+        </nav>
+    </div>
 <%= yield %>
  
 </body>

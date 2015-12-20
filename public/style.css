@@ -2,12 +2,81 @@ p {
 	color: blue;
 }
 
-h1 {
-	color: red;
-	text-align: right;
+.image,exteras h1 {
+    font-family: 'Chela One', cursive;
+    background:  rgb(0, 153, 204)
+;
+    color: black;
+	text-align: left;
+     position: relative; 
 }
+    
+	
 
 body {
-	color: green;
-	background-color: black;
+    
+	color: black;
+	background-color: rgb(51, 206, 255);
+    text-align: center;
+    padding: 20px 50px 150px;
+
+
 }
+
+.nav-bar {
+    
+    background: #EBEFF0;
+    width: 200px;
+    
+    
+}
+    
+    
+    
+
+
+.nav-bar ul{
+     
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+.nav-bar a{
+font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif; 
+ color :  #00b0ff;   
+ font-size: 15px;
+ font-weight: bold;
+ padding-top: 14px;
+ padding-bottom: 14px;
+ padding-left: -20px;
+ padding-right: 10px;
+ text-transform: uppercase;
+    
+}
+
+
+ 
+.nav-bar ul li:hover {
+  background: rgb(0, 37, 51);
+}
+
+.main-menu { 
+   position: relative;
+}
+
+
+
+.CSC h1 {
+font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif; 
+   position: absolute; 
+   top: 0px; 
+   left: 0; 
+   width: 120%; 
+  font-size: 5;
+
+}
+
+
