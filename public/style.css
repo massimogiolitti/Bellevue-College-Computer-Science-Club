@@ -2,31 +2,33 @@ p {
 	color: blue;
 }
 
-.image,exteras h1 {
+.image,extras h1 {
+    
     font-family: 'Chela One', cursive;
-    background:  rgb(0, 153, 204)
-;
+    background:  rgb(0, 153, 204);
     color: black;
 	text-align: left;
-     position: relative; 
+    position: relative; 
+
 }
     
-	
+
 
 body {
     
 	color: black;
 	background-color: rgb(51, 206, 255);
     text-align: center;
-    padding: 20px 50px 150px;
-
+    padding-bottom: 20px;
+    padding-right: 10px;
 
 }
 
 .nav-bar {
     
+    display:block;
     background: #EBEFF0;
-    width: 200px;
+    width: 180px;
     
     
 }
@@ -37,24 +39,25 @@ body {
 
 .nav-bar ul{
      
-    list-style-type: none;
+    list-style-type:none;
     margin: 0;
     padding: 0;
-    
     
 }
 
 .nav-bar a{
-font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif; 
+font-family: "Times New Roman", Times, serif;
  color :  #00b0ff;   
- font-size: 15px;
- font-weight: bold;
- padding-top: 14px;
- padding-bottom: 14px;
- padding-left: -20px;
- padding-right: 10px;
+ font-size: 20px;
+ font-weight: 900;
+ padding-top: 100px;
+ padding-bottom: 0;
+ padding-left:   0px;
+ padding-right:   0px;
  text-transform: uppercase;
-    
+ display:table-row;
+text-align: center;
+    align-items: center;
 }
 
 
@@ -70,13 +73,12 @@ font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Ro
 
 
 .CSC h1 {
-font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif; 
+font-family: "Times New Roman", Times, serif; 
    position: absolute; 
    top: 0px; 
    left: 0; 
-   width: 120%; 
-  font-size: 5;
-
+   width: 100%; 
+text-align: right;
 }
 
 
