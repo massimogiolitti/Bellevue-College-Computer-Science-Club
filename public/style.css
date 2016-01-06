@@ -1,11 +1,18 @@
 p {
-	color: blue;
+   color: #4d4d4d;
+   font-family: "Lucida Console", Times, serif;
+}
+
+a {
+   color: #4d4d4d;
+   font-family: "Lucida Console", Times, serif;
+    font-size: 10px;
 }
 
 .image,extras h1 {
     
     font-family: 'Chela One', cursive;
-    background:  rgb(0, 153, 204);
+    background:  rgb(50, 153, 204);
     color: black;
 	text-align: left;
     position: relative; 
@@ -17,7 +24,7 @@ p {
 body {
     
 	color: black;
-	background-color: rgb(51, 206, 255);
+	background-color: #BACFD6;
     text-align: center;
     padding-bottom: 20px;
     padding-right: 10px;
@@ -46,18 +53,17 @@ body {
 }
 
 .nav-bar a{
-font-family: "Times New Roman", Times, serif;
+font-family: "Lucida Console", Times, serif;
  color :  #00b0ff;   
  font-size: 20px;
  font-weight: 900;
- padding-top: 100px;
- padding-bottom: 0;
- padding-left:   0px;
- padding-right:   0px;
+ line-height: 2;
+ text-indent: 10px;
+ padding: 10px 0px 0px 0px;
  text-transform: uppercase;
  display:table-row;
-text-align: center;
-    align-items: center;
+ text-align: center;
+ align-items: center;
 }
 
 
@@ -73,11 +79,11 @@ text-align: center;
 
 
 .CSC h1 {
-font-family: "Times New Roman", Times, serif; 
+font-family: "Lucida Console", Times, serif; 
    position: absolute; 
    top: 0px; 
    left: 0; 
-   width: 100%; 
+   width: 98%; 
 text-align: right;
 }
 

@@ -33,12 +33,17 @@ end
 get '/join' do
     erb :join
 end
+
 get '/members' do
     erb :members
 end
 
 get '/about' do
     erb :about
+end
+
+get '/privacy' do
+    erb :privacy
 end
 
 #test slack

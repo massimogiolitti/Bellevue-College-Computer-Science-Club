@@ -1,5 +1,22 @@
 <h1>NIPASH TEST PAGE</h1>
+<head>
+<script src="http://maps.googleapis.com/maps/api/js"></script>
+<script>
+function initialize() {
+  var mapProp = {
+    center:new google.maps.LatLng(47.5853515,-122.1482834),
+    zoom:15,
+    mapTypeId:google.maps.MapTypeId.HYBRID
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+</head>
 
+<body>
+<p>Google Maps Test</p>
+<div id="googleMap" style="width:800px;height:500px;"></div>
 <br>
 <p>Image Test</p>
 <img src="http://www.zemwallpapers.com/wp-content/uploads/2015/08/Copyright-Free-Photos-2.jpg" alt="tiger">
@@ -14,7 +31,4 @@
 <br>
 <br>
 <p>Music test</p>
- <audio controls>
-  <source src="horse.ogg" type="audio/ogg">
-Your browser does not support the audio element.
-</audio> 
+</body>	
