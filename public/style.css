@@ -1,6 +1,7 @@
 p {
    color: #4d4d4d;
    font-family: "Lucida Console", Times, serif;
+    font-size: 18px;
 }
 
 a {
@@ -16,6 +17,8 @@ a {
     color: black;
 	text-align: left;
     position: relative; 
+    border: 2px solid black;
+    font-size: 27px;
 
 }
     
@@ -36,7 +39,7 @@ body {
     display:block;
     background: #EBEFF0;
     width: 180px;
-    
+    border: 2px solid black;
     
 }
     
@@ -53,7 +56,7 @@ body {
 }
 
 .nav-bar a{
-font-family: "Lucida Console", Times, serif;
+ font-family: "Lucida Console", Times, serif;
  color :  #00b0ff;   
  font-size: 20px;
  font-weight: 900;
