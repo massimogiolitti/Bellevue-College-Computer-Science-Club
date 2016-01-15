@@ -34,6 +34,17 @@ get '/join' do
     erb :join
 end
 
+#added the name parameters
+get '/members/:name' do
+    puts params['name']
+    #if name is reza load reza.erb
+    if (params['name'] == 'reza') 
+        erb :reza
+    end
+    #handle other member pages here.
+end
+
+#load main memebers page
 get '/members' do
     erb :members
 end
