@@ -1,58 +1,71 @@
 p {
-   color: #4d4d4d;
+   color: #292929;
    font-family: "Lucida Console", Times, serif;
-    font-size: 18px;
+    font-size: 15px;
+    padding-left: 250px;
 }
 
 a {
-   color: #4d4d4d;
+   color: #292929;
    font-family: "Lucida Console", Times, serif;
     font-size: 10px;
+    padding-left: 100px;
+}
+
+h1 {
+   color: #292929;
+   font-family: "Lucida Console", Times, serif;
+    font-size: 50px;
+    padding-left: 10px;
+}
+
+h2 {
+   color: #292929;
+   font-family: "Lucida Console", Times, serif;
+    font-size: 35px;
+    padding-left: 200px;
+}
+
+h3 {
+   color: #292929;
+   font-family: "Lucida Console", Times, serif;
+    font-size: 25px;
+    padding-left: 200px;
 }
 
 .image,extras h1 {
-    
-    font-family: 'Chela One', cursive;
-    background:  rgb(50, 153, 204);
-    color: black;
-	text-align: left;
+    font-family: 'Lucida Console';
+    background:  rgb(10, 10, 10);
+    color: #ffffff;
+	text-align: right;
     position: relative; 
     border: 2px solid black;
     font-size: 27px;
-
 }
-    
-
 
 body {
-    
-	color: black;
-	background-color: #BACFD6;
+	color: #292929;
+	background-color: #F7F7F7;
     text-align: center;
     padding-bottom: 20px;
     padding-right: 10px;
-
 }
 
 .nav-bar {
-    
     display:block;
-    background: #EBEFF0;
-    width: 180px;
+    background: rgb(5, 5, 5);
+    width: 220px;
     border: 2px solid black;
-    
+    text-align: left;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
 }
-    
-    
-    
-
 
 .nav-bar ul{
-     
     list-style-type:none;
     margin: 0;
-    padding: 0;
-    
+    padding: 0;  
 }
 
 .nav-bar a{
@@ -64,30 +77,26 @@ body {
  text-indent: 10px;
  padding: 10px 0px 0px 0px;
  text-transform: uppercase;
- display:table-row;
- text-align: center;
- align-items: center;
+ display:inline-row;
+ text-align: right;
+ align-items: left;
 }
 
-
- 
 .nav-bar ul li:hover {
   background: rgb(0, 37, 51);
 }
 
 .main-menu { 
    position: relative;
+   text-align: left;
 }
-
-
 
 .CSC h1 {
 font-family: "Lucida Console", Times, serif; 
+color: #EFEFEF;
    position: absolute; 
-   top: 0px; 
-   left: 0; 
+   top: 20px;  
+   left: 100px
    width: 98%; 
-text-align: right;
+   text-align: center;
 }
-
-
